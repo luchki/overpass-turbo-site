@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  overpass-site:
+    container_name: overpass-site
+    build: .
+    ports:
+      - "80:80"
